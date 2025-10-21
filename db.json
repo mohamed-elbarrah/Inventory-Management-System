@@ -1,0 +1,10 @@
+{
+  "products": [
+    { "id": 1, "name": "Laptop", "price": 1200, "stock": 10 },
+    { "id": 2, "name": "Mouse", "price": 25, "stock": 50 }
+  ],
+  "users": [
+    { "id": 1, "username": "admin", "role": "manager", "password": "123" },
+    { "id": 2, "username": "user1", "role": "customer", "password": "456" }
+  ]
+}
