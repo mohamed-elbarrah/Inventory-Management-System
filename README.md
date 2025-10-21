@@ -53,21 +53,17 @@ Customer	   john	      456
 
 📂 Project Structure
 
-src/
-├── app/                  
-│   ├── store.js          
-│   └── api/
-│       └── apiSlice.js   
+src/<br>
+├── app/<br>                  
+│   ├── store.js<br>          
+│   └── api/<br>
+│       └── apiSlice.js <br>  
 │
-├── components/           
-│   └── RoleBasedRoute.js 
+├── components/    <br>       
+│   └── RoleBasedRoute.js <br>
 │
-├── features/             
-│   ├── auth/             
-│   ├── manager/          
-│   └── customer/         │
-<<<<<<< HEAD
-└── App.js                # Main router setup
-=======
-└── App.js                # Main router setup
->>>>>>> 191347dd92b8e9b37214cbc6f797c9d9bbcb366e
+├── features/ <br>            
+│   ├── auth/  <br>           
+│   ├── manager/     <br>     
+│   └── customer/     <br>    
+└── App.js                # Main router setup<br>
