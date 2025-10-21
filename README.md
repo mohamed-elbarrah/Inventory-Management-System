@@ -45,28 +45,27 @@ npm install -g json-server
 🔑Application Credentials (Mock Data)
 
 Use these credentials for testing access control:
-Role	     Username	Password	Access
-Manager	     admin	    123	        Can view and edit product stock.
-Customer	 john	    456	        Can view products and place orders (reduces stock).
+Role	       Username	  Password	
+Manager	     admin	    123	       
+Customer	   john	      456	        
 
 
 
 📂 Project Structure
 
 src/
-├── app/                  # Redux Store Configuration & RTK Query Base
+├── app/                  
 │   ├── store.js          
 │   └── api/
-│       └── apiSlice.js   # All API endpoints and tag definitions
+│       └── apiSlice.js   
 │
 ├── components/           
-│   └── RoleBasedRoute.js # Route protection logic
+│   └── RoleBasedRoute.js 
 │
-├── features/             # Feature Modules
-│   ├── auth/             # Login/Logout logic and Redux user state
-│   ├── manager/          # Manager-specific dashboard and actions
-│   └── customer/         # Customer-specific dashboard and actions
-│
+├── features/             
+│   ├── auth/             
+│   ├── manager/          
+│   └── customer/         │
 <<<<<<< HEAD
 └── App.js                # Main router setup
 =======
