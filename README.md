@@ -67,4 +67,8 @@ src/
 │   ├── manager/          # Manager-specific dashboard and actions
 │   └── customer/         # Customer-specific dashboard and actions
 │
+<<<<<<< HEAD
 └── App.js                # Main router setup
+=======
+└── App.js                # Main router setup
+>>>>>>> 191347dd92b8e9b37214cbc6f797c9d9bbcb366e
